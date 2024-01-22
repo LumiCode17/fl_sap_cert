@@ -110,28 +110,118 @@ const questions = [
         correct: 2
     },
     {
-        question: "Which of the following factors are reasons why digital world is becoming more complex rather than simpler?",
-        choices: ["1. Machine Learning 2. Artificial Intelligence 3. Robotic", "1. The Internet of things 2.The Globalisation and Expansion of Corperate Network 3. The Exponential Growth of Digital data", "Programming 2. Test-Mining 3. Links to files"],
+        question: "What is the consequence if a deviation between an order and an invoice receipt exceeds the specified tolerance?",
+        choices: ["1. The incoming invoice can be posted using the “Accept and post” function. 2. The system issues an informational message and you can decide whether you want to save the invoice.", "1. The incoming invoice can not be posted using the “Accept and send” function. 2. The system issues an informational message and you can decide whether you want to save the invoice.", "1. The outgoing invoice can be posted using the “Accept and post” function. 2. The system issues an informational message and you can decide whether you want to save the invoice."],
+        correct: 0
+    },
+    {
+        question: "What is possible when releasing production orders?",
+        choices: ["1. All orders in all plants can be released at the same time. 2. An order can be released completely.", "1. All orders in all customer basket can be released at the same time. 2. An order can be released completely.", "1. All sales in all plants can not be released at the same time. 2. An order can not be released completely."],
+        correct: 0
+    },
+    {
+        question: "What is the correct transaction sequence for the manufacturing scenario?",
+        choices: ["1. Order creation - 2. Capacity check - 3. Order release - 4. Material provision - 5. Confirmation - 6. Goods receipt", "1. Order creation - 2. Capacity uncheck - 3. Order not release - 4. Material provision - 5. Confirmation - 6. Goods receipt", "1. Order creation - 2. Capacity check - 3. Order release - 4. Material provision - 5. Good rendering - 6. Goods receipt"],
+        correct: 0
+    },
+    {
+        question: "What does capacity planning in SAP S/4HANA offer?",
+        choices: ["1. Planning of actual productive operation 2. Client", "1. Requencing 2. Planning of actual productive operation", "1. Sequencing 2. Planning of actual productive operation"],
+        correct: 2
+    },
+    {
+        question: "What should you keep in mind when it comes to feedback?",
+        choices: ["1. Feedback can also be entered automatically. 2. HCM and HR data can be updated with the feedback.", "1. Feedback can not also be entered manually. 2. HCM and HR data can not be updated with the feedback.", "1. Feedback can also be entered manually. 2. HCM and HR data can be updated with the feedback."],
+        correct: 2
+    },
+    {
+        question: "Which of the following functions are part of the concept of Available-to-Promise (ATP)?",
+        choices: ["1. Unintelligent product restitution 2. Simultaneous checking of all items in one order", "1. Intelligent product substitution 2. Simultaneous checking of all items in one order", "1. Intelligent product levies 2. Simultaneous checking of all products in one order"],
         correct: 1
     },
     {
-        question: "Which of the following factors are reasons why digital world is becoming more complex rather than simpler?",
-        choices: ["1. Machine Learning 2. Artificial Intelligence 3. Robotic", "1. The Internet of things 2.The Globalisation and Expansion of Corperate Network 3. The Exponential Growth of Digital data", "Programming 2. Test-Mining 3. Links to files"],
+        question: "You are processing a sales order that has already been invoiced. Where can you find the FL billing document lines?",
+        choices: ["Document slow", "Document flow", "Document glow"],
         correct: 1
     },
     {
-        question: "Which of the following factors are reasons why digital world is becoming more complex rather than simpler?",
-        choices: ["1. Machine Learning 2. Artificial Intelligence 3. Robotic", "1. The Internet of things 2.The Globalisation and Expansion of Corperate Network 3. The Exponential Growth of Digital data", "Programming 2. Test-Mining 3. Links to files"],
+        question: "What is the next step after picking?",
+        choices: ["Goods tissue", "Goods pissue", "Goods issue"],
+        correct: 2
+    },
+    {
+        question: "What functions are available in the SAP Fiori “Create invoices” app?",
+        choices: ["1. simulation 2. Individual invoice (EinzelFaktura) 3. Collective invoice (Sammelfaktura)", "1. desimulation 2. Private invoice (EinzelFaktura) => Persons invoice (Sammelfaktura)", "none"],
+        correct: 0
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
         correct: 1
     },
     {
-        question: "Which of the following factors are reasons why digital world is becoming more complex rather than simpler?",
-        choices: ["1. Machine Learning 2. Artificial Intelligence 3. Robotic", "1. The Internet of things 2.The Globalisation and Expansion of Corperate Network 3. The Exponential Growth of Digital data", "Programming 2. Test-Mining 3. Links to files"],
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
         correct: 1
     },
     {
-        question: "Which of the following factors are reasons why digital world is becoming more complex rather than simpler?",
-        choices: ["1. Machine Learning 2. Artificial Intelligence 3. Robotic", "1. The Internet of things 2.The Globalisation and Expansion of Corperate Network 3. The Exponential Growth of Digital data", "Programming 2. Test-Mining 3. Links to files"],
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
+        correct: 1
+    },
+    {
+        question: "Which application provides both service management and procurement?",
+        choices: ["SAP Fiori", "SAP Ariba", "SAP Netch"],
         correct: 1
     },
 
